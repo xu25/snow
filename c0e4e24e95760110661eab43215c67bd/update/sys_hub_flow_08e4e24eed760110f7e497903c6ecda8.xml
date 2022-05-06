@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-trackapptemplates-12-11-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_805583_xdktime_0.time_off_request__upd</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>88e4e24e6d760110e21c38623528c6a8</master_snapshot>
+        <name>Time off request - updated/resubmitted</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>c0e4e24e0576011052866b211156b1a8</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08e4e24eed760110f7e497903c6ecda8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time off request - updated/resubmitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_hub_flow_08e4e24eed760110f7e497903c6ecda8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_805583_xdktime_0_request">statusCHANGESFROMdraft^statusCHANGESTOrequested^NQtime_off_reasonVALCHANGES^status!=draft<item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="draft"/>
+            <item display_value="Requested" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="requested"/>
+            <item endquery="false" field="time_off_reason" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="draft"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0e4e24e0576011052866b211156b1a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <table>x_805583_xdktime_0_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"48e4e24ea476011015afbc8a1024dfa8","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>08e4e24eed760110f7e497903c6ecda8</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>48e4e24ea476011015afbc8a1024dfa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <trigger display_value="">c0e4e24e0576011052866b211156b1a8</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>48e4e24ea476011015afbc8a1024dfa8</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>04e4e24e7b760110138367ae881d82a8</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=08e4e24eed760110f7e497903c6ecda8^sys_idNOT IN48e4e24ea476011015afbc8a1024dfa8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=08e4e24eed760110f7e497903c6ecda8^sys_idNOT INc4e4e24ed37601101a0a2a781b28c9a8"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>c4e4e24ed37601101a0a2a781b28c9a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c4e4e24ed37601101a0a2a781b28c9a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c4e4e24ed37601101a0a2a781b28c9a8</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>44e4e24ed17601105071079015970aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c4e4e24ed37601101a0a2a781b28c9a8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>80e4e24ec47601100e50a7d6c76f92a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <value>x_805583_xdktime_0_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c4e4e24ed37601101a0a2a781b28c9a8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>cce4e24e5976011017e81e85ecf410a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <value>statusCHANGESFROMdraft^statusCHANGESTOrequested^NQtime_off_reasonVALCHANGES^status!=draft</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c4e4e24ed37601101a0a2a781b28c9a8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=08e4e24eed760110f7e497903c6ecda8^sys_idNOT IN40e4e24ed57601106e6113a5843bf5a8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>08e4e24eed760110f7e497903c6ecda8</id>
+        <name>Time off request - updated/resubmitted</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>40e4e24ed57601106e6113a5843bf5a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=40e4e24ed57601106e6113a5843bf5a8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=08e4e24eed760110f7e497903c6ecda8^sys_idNOT IN00e4e24efc760110eba8ceb5b8ec69a8,0ce4e24e2d760110e5fe3d5f8f89eba7,8ce4e24ef2760110010fae96c3bd1aa7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</model>
+        <model_id>08e4e24eed760110f7e497903c6ecda8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:11</sys_created_on>
+        <sys_id>00e4e24efc760110eba8ceb5b8ec69a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7e3409ec7380bc10176b42e18f8be83e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</model>
+        <model_id>08e4e24eed760110f7e497903c6ecda8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>0ce4e24e2d760110e5fe3d5f8f89eba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</model>
+        <model_id>08e4e24eed760110f7e497903c6ecda8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>8ce4e24ef2760110010fae96c3bd1aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=08e4e24eed760110f7e497903c6ecda8^sys_idNOT INc8e4e24e5c760110fbdab1bc1f587ea7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>c8e4e24e5c760110fbdab1bc1f587ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <ui_id>2f298fd8-720c-4a0f-bbc3-3a15cd589115</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c8e4e24e5c760110fbdab1bc1f587ea7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c8e4e24e5c760110fbdab1bc1f587ea7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>4ce4e24e04760110c22950a3c5c92da7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>x_805583_xdktime_0_request</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c8e4e24e5c760110fbdab1bc1f587ea7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>88e4e24e9c760110e624748f314c0aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>84e4e24ec67601105cdc102dc93276b3</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c8e4e24e5c760110fbdab1bc1f587ea7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c8e4e24e5c760110fbdab1bc1f587ea7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>04e4e24ee57601107b7a7d6348f7f9a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c8e4e24e5c760110fbdab1bc1f587ea7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c8e4e24e5c760110fbdab1bc1f587ea7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8^sys_idNOT IN44e4e24ef07601107cfe7c6db91673a7,84e4e24ef076011043c6a86e404cdba7,c4e4e24e90760110544ee5ef207e66a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>44e4e24ef07601107cfe7c6db91673a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5dd285acb180bc10f877d2266b77b39f_changed_fields_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>84e4e24ef076011043c6a86e404cdba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5dd285acb180bc10f877d2266b77b39f_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>c4e4e24e90760110544ee5ef207e66a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5dd285acb180bc10f877d2266b77b39f_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=08e4e24eed760110f7e497903c6ecda8^sys_idNOT IN48e4e24ea5760110f05a4eb6b3f639a7"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a9430dacb180bc10f877d2266b77b360","name":"plan"}}</plan>
+        <plan_id>08e4e24eed760110f7e497903c6ecda8</plan_id>
+        <snapshot>08e4e24e437601109431424f4566a3a7</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48e4e24ea5760110f05a4eb6b3f639a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <trigger display_value="">c0e4e24e0576011052866b211156b1a8</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=08e4e24eed760110f7e497903c6ecda8"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_805583_xdktime_0.time_off_request__upd</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Time off request - updated/resubmitted</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Time off request - updated/resubmitted">08e4e24eed760110f7e497903c6ecda8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88e4e24e6d760110e21c38623528c6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=88e4e24e6d760110e21c38623528c6a8^sys_idNOT IN00e4e24e2f7601100e163e141eab58a7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Time off request - updated/resubmitted">88e4e24e6d760110e21c38623528c6a8</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>00e4e24e2f7601100e163e141eab58a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00e4e24e2f7601100e163e141eab58a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>00e4e24e2f7601100e163e141eab58a7</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>80e4e24e8f760110990eaa6ae5a809a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>00e4e24e2f7601100e163e141eab58a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>8ce4e24e8e7601104d610ae444d12ba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>statusCHANGESFROMdraft^statusCHANGESTOrequested^NQtime_off_reasonVALCHANGES^status!=draft</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>00e4e24e2f7601100e163e141eab58a7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>c0e4e24e67760110d34df9ba95c661a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>x_805583_xdktime_0_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=00e4e24e2f7601100e163e141eab58a7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=88e4e24e6d760110e21c38623528c6a8^sys_idNOT INcce4e24e4a760110ed3a9dfab676e8a6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>88e4e24e6d760110e21c38623528c6a8</id>
+        <name>Time off request - updated/resubmitted</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>cce4e24e4a760110ed3a9dfab676e8a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cce4e24e4a760110ed3a9dfab676e8a6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=88e4e24e6d760110e21c38623528c6a8^sys_idNOT IN08e4e24e6976011044038e4fc08bb3a6,40e4e24e15760110d8696a58902185a7,48e4e24e68760110e1d163f804dcc6a6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7e3409ec7380bc10176b42e18f8be83e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Time off request - updated/resubmitted">88e4e24e6d760110e21c38623528c6a8</model>
+        <model_id>88e4e24e6d760110e21c38623528c6a8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>08e4e24e6976011044038e4fc08bb3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Time off request - updated/resubmitted">88e4e24e6d760110e21c38623528c6a8</model>
+        <model_id>88e4e24e6d760110e21c38623528c6a8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>40e4e24e15760110d8696a58902185a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Time off request - updated/resubmitted">88e4e24e6d760110e21c38623528c6a8</model>
+        <model_id>88e4e24e6d760110e21c38623528c6a8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>48e4e24e68760110e1d163f804dcc6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=88e4e24e6d760110e21c38623528c6a8^sys_idNOT IN88e4e24e78760110f1a84689545b9ba6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Time off request - updated/resubmitted">88e4e24e6d760110e21c38623528c6a8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>88e4e24e78760110f1a84689545b9ba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <ui_id>2f298fd8-720c-4a0f-bbc3-3a15cd589115</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=88e4e24e78760110f1a84689545b9ba6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88e4e24e78760110f1a84689545b9ba6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>0ce4e24eaf760110cfaf14d3247588a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>84e4e24ec67601105cdc102dc93276b3</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>88e4e24e78760110f1a84689545b9ba6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>4ce4e24e357601107914877a5b67c8a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <value>x_805583_xdktime_0_request</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=88e4e24e78760110f1a84689545b9ba6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>88e4e24e78760110f1a84689545b9ba6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>c8e4e24e96760110f5df20c0611066a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=88e4e24e78760110f1a84689545b9ba6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=88e4e24e78760110f1a84689545b9ba6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8^sys_idNOT IN04e4e24ed4760110ee2c1d8dc32893a6,40e4e24e2376011048aa450b881559a6,44e4e24eb8760110b59d7d3bc8b039a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>04e4e24ed4760110ee2c1d8dc32893a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e9430dacb180bc10f877d2266b77b31b_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>40e4e24e2376011048aa450b881559a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e9430dacb180bc10f877d2266b77b31b_changed_fields_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:12</sys_created_on>
+        <sys_id>44e4e24eb8760110b59d7d3bc8b039a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e9430dacb180bc10f877d2266b77b31b_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_88e4e24e6d760110e21c38623528c6a8"/>
+    <sys_hub_flow action="update">
+        <sys_id>08e4e24eed760110f7e497903c6ecda8</sys_id>
+        <latest_snapshot>88e4e24e6d760110e21c38623528c6a8</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

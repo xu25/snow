@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">c8e4e24e7276011088418c0abafaa16e</macroponent>
+        <name>Conditionally refresh special handing notes data broker</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[
+            function handler({api, event, helpers, imports}) {
+    const {name, value} = event.payload;
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const map = value.entries().next().value[1];
+        const activityArray = map.activities.get('crud');
+        if (activityArray.length === 0) return;
+        const { operation } = activityArray[activityArray.length - 1];
+        const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+        if ((operation === 'inserted' || operation === 'updated') && !SHNDisplayed && api.context.props.screen.isActive) {
+           api.data.get_special_handling_notes.refresh();
+        }         
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:14</sys_created_on>
+        <sys_id>04e4e24e17760110500df5e67b2ae965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditionally refresh special handing notes data broker</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_client_script_04e4e24e17760110500df5e67b2ae965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:14</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

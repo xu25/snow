@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Dashboard">00e4e24e157601104c24eb3ad0123993</applet_launcher>
+        <order>30</order>
+        <section display_value="Time Off Trends">40e4e24e1d760110a4c10ba5d3cd2f92</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:42</sys_created_on>
+        <sys_id>08e4e24e837601101140ebc14c899b92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_08e4e24e837601101140ebc14c899b92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:42</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

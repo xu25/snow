@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>active</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:40</sys_created_on>
+        <sys_id>48e4e24e167601108262a96e0d4d9372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>active</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_48e4e24e167601108262a96e0d4d9372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:40</sys_updated_on>
+        <table>x_805583_xdktime_0_request</table>
+        <ui_policy display_value="Status/Active Not Visible">c4e4e24e9276011034dfa14b243c2372</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

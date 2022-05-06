@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="update_sets" max_length="40" name="x_805583_xdktime_0_update_sets" sizeclass="0" type="collection">
+        <element label="age" max_length="40" name="age" type="integer"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

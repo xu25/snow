@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action display_value="Edit">eace385453103300099addeeff7b122d</action>
+        <action_attributes/>
+        <action_name>edit_({{count}})</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action display_value="Edit">06377cb1c7233300099a308dc7c260a4</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description>Open form to edit selected records</description>
+        <design_icon/>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>contexual_sidebar</form_position>
+        <group display_value="">c5b57bdc88b16010f877f9b035bdf4a9</group>
+        <group_by>true</group_by>
+        <icon>button</icon>
+        <label>Edit ({{count}})</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>true</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition>!(new global.ManyToManyChecker().isManyToMany("{{table}}")) </script_condition>
+        <server_script/>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8e4e24e3e760110fd0f2a5ba951edad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edit_({{count}})</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_c8e4e24e3e760110fd0f2a5ba951edad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:36</sys_updated_on>
+        <table>x_805583_xdktime_0_request</table>
+        <tooltip>Edit selected record</tooltip>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>true</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8e4e24e3e760110fd0f2a5ba951edad"/>
+</record_update>

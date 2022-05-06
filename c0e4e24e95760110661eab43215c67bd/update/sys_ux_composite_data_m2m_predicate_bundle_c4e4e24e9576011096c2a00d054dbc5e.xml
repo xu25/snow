@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Time Off - Recent Requests">80e4e24ec176011067835f9d6a58645f</dataset>
+        <order>10</order>
+        <predicate_bundle display_value="to_recent_bundle">84e4e24e627601105e26d7dce0a64c5e</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:13</sys_created_on>
+        <sys_id>c4e4e24e9576011096c2a00d054dbc5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_c4e4e24e9576011096c2a00d054dbc5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:13</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

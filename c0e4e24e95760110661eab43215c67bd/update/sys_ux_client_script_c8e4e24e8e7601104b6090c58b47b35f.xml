@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">c8e4e24e7276011088418c0abafaa16e</macroponent>
+        <name>Launch Special Handling Notes</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[
+            function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+   const {
+    snHttp,
+    modal,
+    screen
+} = helpers;
+
+    var SHNOutput = api.data.get_special_handling_notes.output.data.GlideSHN_Query;
+    var showModal = SHNOutput && SHNOutput.totalMsg > 0;
+    var gFormData = api.data.gform.nowRecordFormBlob;
+
+    if (api.state.specialHandlingNotesDisplayed)    return;
+
+    if (showModal && gFormData && api.context.props.screen.isActive) {
+        api.emit('RECORD#OPEN_MODAL', {
+            "route": "shn",
+            "fields": {
+                "confs": SHNOutput,
+                "table": gFormData.table,
+                "sysId": gFormData.sysId
+            }
+        });
+        api.setState("specialHandlingNotesDisplayed", true);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:26</sys_created_on>
+        <sys_id>c8e4e24e8e7601104b6090c58b47b35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launch Special Handling Notes</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_client_script_c8e4e24e8e7601104b6090c58b47b35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:26</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

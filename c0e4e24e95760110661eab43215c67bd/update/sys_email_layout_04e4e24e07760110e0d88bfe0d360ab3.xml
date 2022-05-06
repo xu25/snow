@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<p><br /></p>
+<table style="border: 1px solid gray; width: 602px; position: relative;">
+<tbody>
+<tr>
+<td style="background-color: #161b1c; color: #ffffff; padding-top: 15px; padding-bottom: 15px; border-top-right-radius: 5px; border-top-left-radius: 5px; width: 608px; text-align: center;">
+<h3 style="padding-left: 20px; font-size: 16pt; color: #ffffff;"><span style="font-family: 'trebuchet ms', geneva;">${mail_script:x_805583_xdktime_0.to.comp.name}</span></h3>
+</td>
+</tr>
+<tr>
+<td style="padding-left: 5px; padding-right: 5px; padding-top: 20px;">
+<p class="p1" style="font-family: arial, helvetica, 'sans serif'; font-size: 16pt; color: #ffffff; text-align: center;"><span style="color: #000000; font-family: 'trebuchet ms', geneva;">${notification:body}</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px; width: 600px;">
+<p><span style="font-family: 'trebuchet ms', geneva;"><img style="align: middle;" title="" src="x_805583_xdktime_0.time_off_login.svg" alt="" width="600" height="312" align="middle" border="" hspace="" vspace="" /></span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 50px; background-color: #ffffff; padding-left: 30px; padding-top: 20px; width: 579px;">
+<p style="text-align: center; font-family: helvetica; font-size: 12px; color: #293e40;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">${mail_script:x_805583_xdktime_0.to.footer}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>]]></layout>
+        <name>Time Off Request</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:40</sys_created_on>
+        <sys_id>04e4e24e07760110e0d88bfe0d360ab3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Request</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_email_layout_04e4e24e07760110e0d88bfe0d360ab3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:40</sys_updated_on>
+    </sys_email_layout>
+</record_update>

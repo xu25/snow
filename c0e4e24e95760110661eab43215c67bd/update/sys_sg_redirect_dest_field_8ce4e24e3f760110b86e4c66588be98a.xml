@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Requests This Year to Time Off Requests Nav">84e4e24ed6760110b6731e9470037191</button>
+        <button_table/>
+        <constant_value/>
+        <destination_ui_parameter display_value="URL">4ce4e24e537601108ba8b7da93dad38a</destination_ui_parameter>
+        <source_field/>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:03</sys_created_on>
+        <sys_id>8ce4e24e3f760110b86e4c66588be98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ce4e24e537601108ba8b7da93dad38a</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_8ce4e24e3f760110b86e4c66588be98a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:03</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>

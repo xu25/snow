@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_805583_xdktime_0_request</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Recent Requests">48e4e24ea17601109c90ef08a02d278f</embedded_screen>
+        <item_view/>
+        <name>Recent Requests Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:26</sys_created_on>
+        <sys_id>48e4e24e217601101b8f6ab7f711a38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Requests Main Item</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_sg_master_item_48e4e24e217601101b8f6ab7f711a38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:26</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Time Off View Config (Requester)">c4e4e24ecc76011029bc3cf5d388538f</view_config>
+    </sys_sg_master_item>
+</record_update>

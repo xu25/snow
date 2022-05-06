@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_805583_xdktime_0.TimeOffDateValidation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TimeOffDateValidation</name>
+        <script><![CDATA[var TimeOffDateValidation = Class.create();
+TimeOffDateValidation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    startDate: function() {
+        var date = this.getParameter('sysparm_date');
+        var endDate = this.getParameter('sysparm_endate');
+        var currentDate = new GlideDateTime();
+        currentDate.setValue(new GlideDate().getValue());
+        var formatDate = "";
+        var formatTime = "";
+        var startDate = new GlideDateTime();
+        date = this.loggedInUserDateformat(date);
+        startDate.setDisplayValue(date);
+        if (endDate == '' || endDate == null)
+            return startDate.getNumericValue() < currentDate.getNumericValue();
+    },
+
+    loggedInUserDateformat: function(date, userID) {
+        var dateFormat = '';
+        userID = userID || gs.getUserID();
+        var userObj = new GlideRecord('sys_user');
+        if (userObj.get(userID)) {
+            dateFormat = userObj.getValue('date_format');
+        }
+        if (dateFormat == null || dateFormat == '') {
+            return date+' '+"00:00:00";
+        } else if (dateFormat.indexOf("MM-dd-yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[2] + "-" + formatDate[0] + "-" + formatDate[1] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd-MM-yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+
+        } else if (dateFormat.indexOf("yyyy-MM-dd") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[0] + "-" + formatDate[1] + "-" + formatDate[2] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd/MM/yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('/');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd.MM.yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('.');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+        }
+    },
+    endDate: function() {
+        var end_date = this.getParameter('sysparm_end');
+        var start_date = this.getParameter('sysparm_start') || new GlideDateTime();
+        start_date = this.loggedInUserDateformat(start_date);
+        end_date = this.loggedInUserDateformat(end_date);
+        var startGdt = new GlideDateTime(start_date);
+        startGdt.getNumericValue();
+        var endGdt = new GlideDateTime(end_date);
+        endGdt.getNumericValue();
+        return endGdt.getNumericValue() < startGdt.getNumericValue();
+    },
+
+
+    type: 'TimeOffDateValidation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:19</sys_created_on>
+        <sys_id>0ce4e24ef17601107fe1938dfc98dd99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TimeOffDateValidation</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_script_include_0ce4e24ef17601107fe1938dfc98dd99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

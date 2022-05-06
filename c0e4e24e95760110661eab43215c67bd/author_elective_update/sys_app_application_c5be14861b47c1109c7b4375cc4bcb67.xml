@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>acl</name>
+        <order>100</order>
+        <roles>x_805583_xdktime_0.acl_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:13:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5be14861b47c1109c7b4375cc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acl</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_app_application_c5be14861b47c1109c7b4375cc4bcb67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:13:26</sys_updated_on>
+        <title>acl</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</application>
+        <file_path/>
+        <instance_id>89ea6bdcdb873300f492c597059619cd</instance_id>
+        <instance_name>dev89935</instance_name>
+        <name>sys_app_application_c5be14861b47c1109c7b4375cc4bcb67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>acl</name><order>100</order><roles>x_805583_xdktime_0.acl_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-25 06:13:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5be14861b47c1109c7b4375cc4bcb67</sys_id><sys_mod_count>0</sys_mod_count><sys_name>acl</sys_name><sys_overrides/><sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package><sys_policy/><sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope><sys_update_name>sys_app_application_c5be14861b47c1109c7b4375cc4bcb67</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-25 06:13:26</sys_updated_on><title>acl</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>936503324</payload_hash>
+        <record_name>acl</record_name>
+        <reverted_from/>
+        <source>4915ae4e1b7601109c7b4375cc4bcb11</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:13:26</sys_created_on>
+        <sys_id>c5be14861b47c1109c7b4375cc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1805f5a797d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:13:26</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>01be14860d47c1104f534aa864dcb56a</update_guid>
+        <update_guid_history>01be14860d47c1104f534aa864dcb56a:936503324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="acl">7f40a8c61b47c1109c7b4375cc4bcb46</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:20:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0598390ea6054e83803fadd2a2156509</sys_id>
+        <sys_metadata>c5be14861b47c1109c7b4375cc4bcb67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acl</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_scope_delete display_value="">c92e62a9330142beaa609e8ce1dca591</sys_scope_delete>
+        <sys_update_name>sys_app_application_c5be14861b47c1109c7b4375cc4bcb67</sys_update_name>
+        <sys_update_version display_value="sys_app_application_c5be14861b47c1109c7b4375cc4bcb67">c5be14861b47c1109c7b4375cc4bcb6a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:20:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

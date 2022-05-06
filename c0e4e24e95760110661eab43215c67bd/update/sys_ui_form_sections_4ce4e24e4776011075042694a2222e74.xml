@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4ce4e24e4776011075042694a2222e74" sys_domain="global" table="x_805583_xdktime_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-13 05:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00e4e24ee97601107adb5cd43b7ca075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_805583_xdktime_0_request" name="x_805583_xdktime_0_request" sys_domain="global" view="cce4e24ea2760110cbf577c0eef4ce74">4ce4e24e4776011075042694a2222e74</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_805583_xdktime_0_request" sys_domain="global" view="cce4e24ea2760110cbf577c0eef4ce74">40e4e24e717601109729761bd5c2f675</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-13 05:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-13 05:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ce4e24e30760110885fbb4167b7bf74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_805583_xdktime_0_request" name="x_805583_xdktime_0_request" sys_domain="global" view="cce4e24ea2760110cbf577c0eef4ce74">4ce4e24e4776011075042694a2222e74</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_805583_xdktime_0_request" sys_domain="global" view="cce4e24ea2760110cbf577c0eef4ce74">8ce4e24e28760110687d615e195d6d74</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-13 05:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_805583_xdktime_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-13 05:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ce4e24e4776011075042694a2222e74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_805583_xdktime_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4ce4e24e4776011075042694a2222e74</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-13 05:44:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Record (x_805583_xdktime_0)" name="record_x_805583_xdktime_0">cce4e24ea2760110cbf577c0eef4ce74</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

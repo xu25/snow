@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="notification_route">
+    <notification_route action="INSERT_OR_UPDATE">
+        <description>Time off request workspace</description>
+        <name>Time Off Request WS</name>
+        <sys_class_name>notification_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:15</sys_created_on>
+        <sys_id>48e4e24ef8760110810a20da7fd110b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Request WS</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>notification_route_48e4e24ef8760110810a20da7fd110b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:15</sys_updated_on>
+    </notification_route>
+</record_update>

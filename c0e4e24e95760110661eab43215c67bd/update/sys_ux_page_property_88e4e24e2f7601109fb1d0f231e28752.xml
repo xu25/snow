@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="xdkTimeTemplate workspace">c4e4e24e167601102cbaa33286b9bebc</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Record">08e4e24edb7601108e39e0ae0948e067</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>88e4e24e2f7601109fb1d0f231e28752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_page_property_88e4e24e2f7601109fb1d0f231e28752</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:39</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_805583_xdktime_0.c4e4e24e167601102cbaa33286b9bebc.route.actionConfigId.08e4e24edb7601108e39e0ae0948e067</unique_name>
+        <value>4ce4e24ebb7601108e34f0a48aa7f36e</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=88e4e24e2f7601109fb1d0f231e28752"/>
+</record_update>

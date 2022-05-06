@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:30</sys_created_on>
+        <sys_id>8ce4e24e5a760110ce9f57cae45ad195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_security_acl display_value="x_805583_xdktime_0_request">c4e4e24e72760110e8f0166919180b97</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8ce4e24e5a760110ce9f57cae45ad195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:30</sys_updated_on>
+        <sys_user_role display_value="x_805583_xdktime_0.manager" name="x_805583_xdktime_0.manager">08e4e24eb27601109ee0c9cdc4a86fbc</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

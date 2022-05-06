@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>Test</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <script><![CDATA[bb3659be488da410f877557fd58e162b
+(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutFieldGenerator = new global.NotificationLayoutFieldGenerator();
+    var identifier = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "number");
+    var description = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "status");
+    var status = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "rejection_reason");
+    
+	var deepLinkGenerator = new global.MobileDeepLinkGenerator("Agent");
+	var link = deepLinkGenerator.getFormScreenLink("bb3659be488da410f877557fd58e162b", current.getTableName(), current.getValue("bb3659be488da410f877557fd58e162b"));
+	
+	var json = {};
+	
+	json = {
+        "aps" : {
+            "sound" : "default"
+        },
+		"Link": link,
+        "Layout" : {
+             "Status": status,
+             "Identifier" : identifier,
+             "Description" : description
+        }
+    };
+    
+    return json;
+    
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:43</sys_created_on>
+        <sys_id>0ce4e24e697601100745c66e78660b9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_0ce4e24e697601100745c66e78660b9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:43</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

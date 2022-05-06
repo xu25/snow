@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_805583_xdktime_0.acl_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>acl_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:13:26</sys_created_on>
+        <sys_id>30be50861b47c1109c7b4375cc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_805583_xdktime_0.acl_user</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_user_role_30be50861b47c1109c7b4375cc4bcb3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:13:26</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</application>
+        <file_path/>
+        <instance_id>89ea6bdcdb873300f492c597059619cd</instance_id>
+        <instance_name>dev89935</instance_name>
+        <name>sys_user_role_30be50861b47c1109c7b4375cc4bcb3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_805583_xdktime_0.acl_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>acl_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-25 06:13:26</sys_created_on><sys_id>30be50861b47c1109c7b4375cc4bcb3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_805583_xdktime_0.acl_user</sys_name><sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package><sys_policy/><sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope><sys_update_name>sys_user_role_30be50861b47c1109c7b4375cc4bcb3c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-25 06:13:26</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-355809814</payload_hash>
+        <record_name>x_805583_xdktime_0.acl_user</record_name>
+        <reverted_from/>
+        <source>4915ae4e1b7601109c7b4375cc4bcb11</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:13:26</sys_created_on>
+        <sys_id>c1be50861b47c1109c7b4375cc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1805f5a78380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:13:26</sys_updated_on>
+        <type>Role</type>
+        <update_guid>0dbe50862f47c110de339fca4e91ae40</update_guid>
+        <update_guid_history>0dbe50862f47c110de339fca4e91ae40:-355809814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_805583_xdktime_0.acl_user">e2f0e80a1b47c1109c7b4375cc4bcb80</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-25 06:23:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>73e7c6930a504e40933364112a0d1959</sys_id>
+        <sys_metadata>30be50861b47c1109c7b4375cc4bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_805583_xdktime_0.acl_user</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_scope_delete display_value="">c92e62a9330142beaa609e8ce1dca591</sys_scope_delete>
+        <sys_update_name>sys_user_role_30be50861b47c1109c7b4375cc4bcb3c</sys_update_name>
+        <sys_update_version display_value="sys_user_role_30be50861b47c1109c7b4375cc4bcb3c">c1be50861b47c1109c7b4375cc4bcb41</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 06:23:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

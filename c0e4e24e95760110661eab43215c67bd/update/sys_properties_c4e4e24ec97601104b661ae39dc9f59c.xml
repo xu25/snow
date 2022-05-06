@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Time Off Request activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_805583_xdktime_0_request_activity.fields</name>
+        <read_roles/>
+        <suffix>x_snc_time_off</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:06</sys_created_on>
+        <sys_id>c4e4e24ec97601104b661ae39dc9f59c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_805583_xdktime_0_request_activity.fields</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_properties_c4e4e24ec97601104b661ae39dc9f59c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:06</sys_updated_on>
+        <type>string</type>
+        <value>number,sys_created_on,date_submitted,status,times_submitted,start_date,end_date,time_off_reason,rejection_reason,comments,work_notes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4e4e24ec97601104b661ae39dc9f59c"/>
+</record_update>

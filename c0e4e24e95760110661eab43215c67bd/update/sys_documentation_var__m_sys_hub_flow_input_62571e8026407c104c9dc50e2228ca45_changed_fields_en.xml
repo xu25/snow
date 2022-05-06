@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="changed_fields" label="Changed Fields" language="en" table="var__m_sys_hub_flow_input_84e4e24e487601101b9bde1eed9304a6">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>changed_fields</element>
+            <help/>
+            <hint/>
+            <label>Changed Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_84e4e24e487601101b9bde1eed9304a6</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-13 05:44:24</sys_created_on>
+            <sys_id>c4e4e24eec7601102885130f38d7d8a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Changed Fields</sys_name>
+            <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_62571e8026407c104c9dc50e2228ca45_changed_fields_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-13 05:44:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="Approved or Rejected">c8e4e24e6076011082100224a707a88d</item_parameter>
+        <screen display_value="Time Off Requests">88e4e24e6876011089515171fa5ed691</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:08</sys_created_on>
+        <sys_id>84e4e24e1f760110067c7e5613a06a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c8e4e24e6076011082100224a707a88d</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_84e4e24e1f760110067c7e5613a06a89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:08</sys_updated_on>
+        <ui_parameter display_value="URL">4ce4e24e537601108ba8b7da93dad38a</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

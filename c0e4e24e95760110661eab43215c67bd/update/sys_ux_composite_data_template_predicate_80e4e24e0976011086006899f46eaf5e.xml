@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_805583_xdktime_0_request">requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^start_dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^statusINdraft,requested,approved^active=true^EQ<item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="start_date" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+            <item display_value="draft,requested,approved" endquery="false" field="status" goto="false" newquery="false" operator="IN" or="false" value="draft,requested,approved"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>status,start_date,end_date,time_off_reason</field_list>
+        <name>Time Off Config  - All EDIT</name>
+        <order>0</order>
+        <predicate_bundle display_value="to_all_bundle">c8e4e24e22760110d1f07f6329dc025e</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:40</sys_created_on>
+        <sys_id>80e4e24e0976011086006899f46eaf5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Config  - All EDIT</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_80e4e24e0976011086006899f46eaf5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:40</sys_updated_on>
+        <table>x_805583_xdktime_0_request</table>
+        <ux_template display_value="Time Off Template - Draft">04e4e24e6d760110b7ff3eda2869aa5e</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

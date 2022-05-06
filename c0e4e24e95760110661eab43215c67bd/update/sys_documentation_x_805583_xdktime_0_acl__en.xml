@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="acl" language="en" table="x_805583_xdktime_0_acl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>acl</label>
+            <language>en</language>
+            <name>x_805583_xdktime_0_acl</name>
+            <plural>acls</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-25 06:13:28</sys_created_on>
+            <sys_id>a5be14861b47c1109c7b4375cc4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>acl</sys_name>
+            <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+            <sys_update_name>sys_documentation_x_805583_xdktime_0_acl__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-25 06:13:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

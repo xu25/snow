@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Time Off Template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:15</sys_created_on>
+        <sys_id>44e4e24e8f76011034c3077d88c15b5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Template</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_44e4e24e8f76011034c3077d88c15b5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:15</sys_updated_on>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"highlightedHeaderIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "presence-fill"&#13;
+		},&#13;
+		"highlightedHeaderBkgColor": {&#13;
+			"translatable": false,&#13;
+			"key": ""&#13;
+		},&#13;
+		"subtitleIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "calendar-fill"&#13;
+		},&#13;
+		"detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Duration"&#13;
+		},&#13;
+		"detailLabelTwo": {&#13;
+			"translatable": true,&#13;
+			"key": ""&#13;
+		},&#13;
+		"detailLabelThree": {&#13;
+			"translatable": true,&#13;
+			"key": ""&#13;
+		}&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "status",&#13;
+		"titleLabel": "start_date",&#13;
+		"subtitle": "",&#13;
+		"detailValueOne": ""&#13;
+	},&#13;
+	"actionMappings": {&#13;
+		"clickAction": "to_navigation"&#13;
+	}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

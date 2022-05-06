@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>true</click_in_mode>
+        <context_config_id display_value="">2e571e80aa407c10c849e716fd313803</context_config_id>
+        <limit>5</limit>
+        <order>100</order>
+        <section_header>Recent Searches</section_header>
+        <suggestion_type>Recent Search Reader Group for Time off Search Config</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:42</sys_created_on>
+        <sys_id>00e4e24ec57601100be5126142859eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Search Reader Group for Time off Search Config</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_00e4e24ec57601100be5126142859eb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:42</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_805583_xdktime_0.to.view</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var link = current.getLink();
+    template.print('<font face="tahoma">');
+
+    // 	var backgroundColor = 'background-color: #003059;';
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12pt;';
+    // 	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+    var textDecoration = 'text-decoration: none;';
+    // 	var webKitBorder = '-webkit-border-radius: 0px;';
+    // 	var mozBorder = '-moz-border-radius: 0px;';
+    // 	var display = 'display: inline-block;';
+    // 	var padding = 'padding: 13px 65px;';
+
+
+    //template.print('<a href="' + link + '"');
+    var companyCode = gs.getProperty("glide.appcreator.company.code");
+    if (companyCode == "snc" || companyCode == "sn" || companyCode == "now") {
+        companyCode = "now";
+    } else {
+        companyCode = "x/" + companyCode;
+    }
+    template.print('<a href="' + gs.getProperty('glide.servlet.uri') + companyCode + '/x_805583_xdktime_0/portal/request/' + current.sys_class_name + '/' + current.sys_id + '/record' + '"');
+    template.print('style="' + color + fontSize + textDecoration);
+    template.print('">');
+    template.print(gs.getMessage('View request'));
+    template.print('</a>');
+    template.print('</font>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 05:44:06</sys_created_on>
+        <sys_id>08e4e24ec1760110d6421cbc6a0aaf99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_805583_xdktime_0.to.view</sys_name>
+        <sys_package display_value="xdkDemo" source="x_805583_xdktime_0">c0e4e24e95760110661eab43215c67bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="xdkDemo">c0e4e24e95760110661eab43215c67bd</sys_scope>
+        <sys_update_name>sys_script_email_08e4e24ec1760110d6421cbc6a0aaf99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 05:44:06</sys_updated_on>
+    </sys_script_email>
+</record_update>
