@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="学生" max_length="40" name="x_805583_xdktime_0_x_805583_xdktime_0" sizeclass="0" type="collection">
+    <element label="学生" max_length="40" name="x_805583_xdktime_0_x_805583_xdktime_0" type="collection">
+        <element label="Age" max_length="40" name="age" type="string"/>
         <element label="name" max_length="40" name="name" type="string"/>
     </element>
 </database>
